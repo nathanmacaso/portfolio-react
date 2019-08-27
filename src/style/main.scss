@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+    font-family: 'montserrat';
+}
+
+// *,
+// *::after,
+// *::before {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: inherit;
+//     font-family: 'montserrat';
+// }
+
+// body {
+//     overflow-x: hidden;
+//     font-weight: normal;
+
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     text-rendering: optimizeLegibility;
+//     -webkit-tap-highlight-color: transparent;
+// }
+
+// .app {
+//     margin-top: 2rem;
+//     display: grid;
+//     justify-items: center;
+//     height: 100%;
+//     width: 100%;
+// }
+
+html, 
+body,
+.app-wrapper,
+.app {
+    height: 100%;
+    margin-top: 0;
+}
+.home-container {
+  background-image: url('../images/office.jpg');
+  background-size: cover;
+  height: 100%;
+}
